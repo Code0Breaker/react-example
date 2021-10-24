@@ -1,0 +1,43 @@
+.header_info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.table-inputs input {
+  display: flex;
+  width: 450px;
+  height: 40px;
+}
+input {
+  width: 90%;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #312d2d;
+}
